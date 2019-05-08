@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include "common.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     if (argc != 2) {
 	fprintf(stderr, "usage: cpu <string>\n");
 	exit(1);
@@ -16,3 +15,4 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
+
